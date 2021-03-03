@@ -11,32 +11,32 @@ package calculadora;
  */
 public class Calculadora {
 
-    public string getOperador1() {
+    public String getOperador1() {
         return operador1;
     }
 
-    public void setOperador1(string operador1) {
+    public void setOperador1(String operador1) {
         this.operador1 = operador1;
     }
 
-    public string getOperador2() {
+    public String getOperador2() {
         return operador2;
     }
 
-    public void setOperador2(string operador2) {
+    public void setOperador2(String operador2) {
         this.operador2 = operador2;
     }
 
-    public string getOperacion() {
-        return operacion;
+    public String getOperacion() {
+        return operador;
     }
 
-    public void setOperacion(string operacion) {
-        this.operacion = operacion;
+    public void setOperacion(String operacion) {
+        this.operador = operacion;
     }
-  private string operador1;
-  private string operador2;
-  private string operacion;
+  private String operador1;
+  private String operador2;
+  private String operador;
           
     /**
      * @param args the command line arguments
