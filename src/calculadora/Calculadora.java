@@ -20,11 +20,11 @@ public class Calculadora {
     }
 
     public String getOperador2() {
-        return operador2;
+        return oper2;
     }
 
     public void setOperador2(String operador2) {
-        this.operador2 = operador2;
+        this.oper2 = operador2;
     }
 
     public String getOperacion() {
@@ -35,7 +35,7 @@ public class Calculadora {
         this.operador = operacion;
     }
   private String operador1;
-  private String operador2;
+  private String oper2;
   private String operador;
           
     /**
